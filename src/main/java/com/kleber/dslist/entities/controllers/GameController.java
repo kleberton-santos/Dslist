@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.kleber.dslist.entities.Game;
-import com.kleber.dslist.entities.GameDTO;
+import com.kleber.dslist.entities.dto.GameDTO;
 import com.kleber.dslist.entities.dto.GameMinDTO;
 import com.kleber.dslist.services.GameService;
 

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.kleber.dslist.entities.Game;
-import com.kleber.dslist.entities.GameDTO;
+import com.kleber.dslist.entities.dto.GameDTO;
 import com.kleber.dslist.entities.dto.GameMinDTO;
 import com.kleber.dslist.entities.repositories.GameRepository;
 

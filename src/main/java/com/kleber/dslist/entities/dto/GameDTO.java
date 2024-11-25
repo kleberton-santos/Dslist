@@ -1,6 +1,8 @@
-package com.kleber.dslist.entities;
+package com.kleber.dslist.entities.dto;
 
 import org.springframework.beans.BeanUtils;
+
+import com.kleber.dslist.entities.Game;
 
 public class GameDTO {
 
