@@ -1,6 +1,7 @@
 package com.kleber.dslist.entities.dto;
 
 import com.kleber.dslist.entities.Game;
+import com.kleber.dslist.projection.GameMinProjection;
 
 public class GameMinDTO {
 	
@@ -20,6 +21,14 @@ public class GameMinDTO {
 		year = entity.getYear();
 		imgUrl = entity.getImgUrl();
 		longDescription = entity.getLongDescription();
+	}
+	
+	public GameMinDTO(GameMinProjection projection) {
+		id = projection.getId();
+		title = projection.getTitle();
+		year = projection.getYear();
+		imgUrl = projection.getImgUrl();
+		longDescription = projection.getShortDescription();
 	}
 
 	public Long getId() {
